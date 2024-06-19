@@ -124,10 +124,8 @@ def print_menu(shopping_cart, menu):
 
 
 def main():
-    # user_name = input("What is your name? ")
-    user_name = "Ryan"
-    # todays_date = input("What is today's date? ")
-    todays_date = "5/5/5"
+    user_name = input("What is your name? ")
+    todays_date = input("What is today's date? ")
     shopping_cart = ShoppingCart(user_name, todays_date)
     menu = """  -------MENU-------
 a - Add item to cart
