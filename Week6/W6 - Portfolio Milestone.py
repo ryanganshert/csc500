@@ -73,7 +73,7 @@ class ShoppingCart:
                 if action == 'quantity':
                     while True:
                         try:
-                            new_quantity = input(f"Please enter the new desired quantity of {self.cart_items[index_of_item].item_name}: ")
+                            new_quantity = int(input(f"Please enter the new desired quantity of {self.cart_items[index_of_item].item_name}: "))
                             self.cart_items[index_of_item].item_quantity = new_quantity
                             break
                         except:
